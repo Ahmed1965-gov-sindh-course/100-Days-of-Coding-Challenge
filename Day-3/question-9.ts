@@ -3,5 +3,5 @@
 
 //favorite Number  8;
 let favoriteNumber:number = 8;
-let message:string = `My favorite number is ${favoriteNumber}`;
-console.log(message);
+let mesage:string = `My favorite number is ${favoriteNumber}`;
+console.log(mesage);

@@ -4,13 +4,13 @@
 
 
 
-let guestList:string[] = ["Jameel", "Hamza", "Hassan"];
+let guestList4:string[] = ["Jameel", "Hamza", "Hassan"];
 
-guestList.push("Ahmed Khan", "Miraz Yousuf", "Imran Khan")
+guestList4.push("Ahmed Khan", "Miraz Yousuf", "Imran Khan")
 
 let guestMess="Found a bigger table and inviting mor guest";
-for(let i=0;i<guestList.length;i++){
-    console.log(guestList[i] +" " + guestMess);
+for(let i=0;i<guestList4.length;i++){
+    console.log(guestList4[i] +" " + guestMess);
 }
 
 

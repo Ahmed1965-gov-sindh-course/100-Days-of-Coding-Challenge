@@ -1,5 +1,6 @@
+"use strict";
 /*Question 28: Stages of Life: Determine a person’s life stage with an if-else chain.*/
-var stageOfLife = function (age, stage) {
+const stageOfLife = (age, stage) => {
     if (age < 2) {
         stage = "Baby";
     }

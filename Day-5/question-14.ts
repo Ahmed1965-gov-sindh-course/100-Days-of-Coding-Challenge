@@ -3,9 +3,9 @@
 
 //preparing the guest list
 
-let guestList:string[] = ["Mohammad Ali Jinnah", "Hamza", "Hassan"];
+let gustList:string[] = ["Mohammad Ali Jinnah", "Hamza", "Hassan"];
 //inviting the guest list
 let guestMessage:string=`I Would like to invite you on Dinner.`
-for(let i=0;i<guestList.length;i++){
-    console.log(`Dear Mr. ${guestList[i]} ${guestMessage}`);
+for(let i=0;i<gustList.length;i++){
+    console.log(`Dear Mr. ${gustList[i]} ${guestMessage}`);
 }

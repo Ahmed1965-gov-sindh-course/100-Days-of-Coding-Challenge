@@ -1,7 +1,8 @@
+"use strict";
 /*Question 27: Alien Colors #3: Convert your if-else chain to handle three colors: green, yellow, red.*/
-var alien_color = "green";
-var alien_color1 = "yellow";
-var alien_color2 = "red";
+let alien_color = "green";
+let alien_color1 = "yellow";
+let alien_color2 = "red";
 if (alien_color === "green") {
     console.log("Player just earned 5 points");
 }

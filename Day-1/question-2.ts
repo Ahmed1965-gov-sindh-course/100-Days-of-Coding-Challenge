@@ -3,6 +3,6 @@
 
 
 let name1: string = "Asharib" ;
-let message:string = "Would you like to learn some TypeScript today?"
+let message5:string = "Would you like to learn some TypeScript today?"
 
-console.log(`Hello ${name1} ${message}`);
+console.log(`Hello ${name1} ${message5}`);

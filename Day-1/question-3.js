@@ -1,15 +1,16 @@
+"use strict";
 /*Question 3: Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and title case.*/
 //creating a variable to store the name
-var name1 = "asharib ali";
+let name_1 = "asharib ali";
 //converting name into upper case
-var name2 = name1.toUpperCase();
+let name_2 = name1.toUpperCase();
 //printing
-console.log("Printing Name in Upper Case\t \n" + name2);
+console.log("Printing Name in Upper Case\t \n" + name_2);
 //lower case
-var name3 = name1.toLowerCase();
+let name_3 = name1.toLowerCase();
 console.log();
-console.log("Printing Name in Lower Case\t \n" + name3);
+console.log("Printing Name in Lower Case\t \n" + name_3);
 //title case
-var name4 = name1.charAt(0).toUpperCase() + name1.slice(1);
+let name_4 = name1.charAt(0).toUpperCase() + name1.slice(1);
 console.log();
-console.log("Printing Name in Title Case\t \n" + name4);
+console.log("Printing Name in Title Case\t \n" + name_4);
